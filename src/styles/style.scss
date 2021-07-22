@@ -1,0 +1,49 @@
+@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D6F1DF;
+    padding: 20px;
+}
+
+.start-btn {
+    width: 80px;
+    border-color: blue;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.scores {
+    margin-bottom: 10px;
+}
+
+.game-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    outline: 2px solid blue;
+    background-color: burlywood;
+}
+
+.game-grid div {
+    width: 40px;
+    height: 40px;
+}
+
+.snake {
+    background-color: green;
+}
+
+.apple {
+    background-color: crimson;
+    border-radius: 50%;
+}
